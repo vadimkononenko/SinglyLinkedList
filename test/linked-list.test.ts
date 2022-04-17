@@ -135,7 +135,7 @@ describe('Testing Singly Linked List', () => {
 
     const listLengthBeforeRemoving: number = list.length();
 
-    list.removeAll(6);
+    list.removeAll(4);
     expect(list.length()).toEqual(listLengthBeforeRemoving);
   });
 
