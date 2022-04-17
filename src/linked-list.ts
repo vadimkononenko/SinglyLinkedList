@@ -231,26 +231,3 @@ export class SinglyLinkedList {
     }
   }
 }
-
-let list1: SinglyLinkedList = new SinglyLinkedList();
-let list2: SinglyLinkedList = new SinglyLinkedList();
-
-list1.append(1);
-list1.append(2);
-list1.append(3);
-
-list2.append(4);
-list2.append(5);
-list2.append(6);
-
-list1.extend(list2);
-
-for (let i = 0; i < list1.length(); i++) {
-  console.log(list1.get(i)?.value);
-}
-
-console.log(list1.length());
-
-list2.append(5324);
-
-console.log(list1.length());

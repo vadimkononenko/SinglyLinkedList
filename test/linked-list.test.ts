@@ -236,11 +236,3 @@ describe('Testing Singly Linked List', () => {
     expect(listF.get(3)!.value).toEqual(4);
   });
 });
-
-
-
-
-
-
-
-
